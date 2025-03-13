@@ -65,10 +65,9 @@ export default defineNuxtConfig({
   //   url: 'http://localhost:3000',
   //   name: 'stock_feel_ticket_center'
   // },
-  sitemap: {
-    xsl: false,
-    hostname: 'http://localhost:3000' // 記得換成你的網址
-  },
+  // sitemap: {
+  //   xsl: false,
+  // },
   css: [
     'animate.css/animate.min.css',
     'swiper/css',
