@@ -61,13 +61,13 @@ export default defineNuxtConfig({
   robots: {
     disallow: [process.env.CURRENT_MODE === 'dev' ? '/' : '']
   },
-  // site: {
-  //   url: 'http://localhost:3000',
-  //   name: 'stock_feel_ticket_center'
-  // },
-  // sitemap: {
-  //   xsl: false,
-  // },
+  site: {
+    url: 'https://stock-feel-sitemap-k4bxl5o1c-harveys-projects-5ddca89e.vercel.app',
+    name: 'stock_feel_ticket_center'
+  },
+  sitemap: {
+    xsl: false,
+  },
   css: [
     'animate.css/animate.min.css',
     'swiper/css',
