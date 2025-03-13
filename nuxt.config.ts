@@ -32,7 +32,8 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@element-plus/nuxt',
     'nuxt-simple-robots',
-    '@zadigetvoltaire/nuxt-gtm'
+    '@zadigetvoltaire/nuxt-gtm',
+    '@nuxtjs/sitemap'
   ],
   components: {
     dirs: [
@@ -59,6 +60,13 @@ export default defineNuxtConfig({
   },
   robots: {
     disallow: [process.env.CURRENT_MODE === 'dev' ? '/' : '']
+  },
+  site: {
+    url: 'https://stock-feel-sitemap.vercel.app',
+    name: 'My Awesome Website'
+  },
+  sitemap: {
+    xsl: false
   },
   css: [
     'animate.css/animate.min.css',
