@@ -137,10 +137,6 @@ const { data: pageData } = await useAsyncData('homeData', async () => {
   }
 })
 
-onMounted(() => {
-  console.log('home')
-})
-
 definePageMeta({
   middleware: ['cross'],
   name: 'home'
