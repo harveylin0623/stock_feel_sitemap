@@ -66,7 +66,11 @@ export default defineNuxtConfig({
     name: 'My Awesome Website'
   },
   sitemap: {
-    xsl: false
+    xsl: false,
+    include: [
+      '/',
+      '/test'
+    ]
   },
   css: [
     'animate.css/animate.min.css',
