@@ -1,0 +1,161 @@
+{
+  "validate": {
+    "require": "必填",
+    "email": "電子信箱格式有誤",
+    "confirm": "確認資料有誤",
+    "taxId": "統一編號格式有誤",
+    "webUrl": "網站連結格式有誤",
+    "password": "6 - 12 碼英數字",
+    "phone": "手機格式有誤",
+    "pureNumber": "輸入數字"
+  },
+  "placeholder": {
+    "searchQualityProduct": "搜尋優質好物"
+  },
+  "seo": {
+    "pageTitle": {
+      "template": "票券中心",
+      "home": "首頁",
+      "redeemOk": "兌換成功",
+      "memberCenter": "會員中心",
+      "myCoupon": "我的票券",
+      "redeemHistory": "兌換紀錄",
+      "orderDetail": "訂單詳情",
+      "ticketCenter": "票券中心",
+      "oauth": "授權驗證"
+    },
+    "metaContent": {
+      
+    }
+  },
+  "sectionTitle": {
+    "recommendVariousCoupon": "這樣買最優惠，多種聯合通用券推薦給你！",
+    "everyoneIsRushing": "大家都在搶，熱銷票券推薦給你！",
+    "shopOnlineEarnLemonCoins": "線上消費，賺檬檬幣，再兌換線下消費券，線上線下大串連！",
+    "recommendedForYouKnowledge": "推薦給你內外知識，全方位提升身心極致。"
+  },
+  "howToUseCard": {
+    "one": {
+      "title": "如何賺點數？",
+      "content": "在股感（STOCKFEEL）任務中心完成各種限時任務、日常任務、新手任務等，即可賺取點數與檸檬幣，自由兌換商品與更多會員專屬好禮！"
+    },
+    "two": {
+      "title": "如何兌換票券？",
+      "content": "前往股感（STOCKFEEL）兌換中心，使用序號、點數或檸檬幣，兌換各類票券，各種優惠應有盡有！"
+    },
+    "three": {
+      "title": "如何使用票券",
+      "content": "兌換票券後，即可在實體或線上商店進行使用！",
+      "tip": "* 請依各票券使用說明進行使用﹔部分折價券具有效期，過期折價券將無法使用，且恕不補發。"
+    }
+  },
+  "footerLink": {
+    "group": {
+      "customerService": "客戶服務",
+      "aboutLemonMall": "關於檸檬商城",
+      "ganganGroup": "感感集團"
+    },
+    "brandIntro": "品牌介紹",
+    "memberTermsService": "會員服務條款",
+    "privacyPolicy": "隱私權政策",
+    "refundPolicy": "退款政策",
+    "contactUs": "聯絡我們",
+    "stockfeel": "股感 StockFeel",
+    "cashFeel": "安錢感 CashFeel",
+    "insFeel": "保險感 INS.Feel",
+    "houseFeel": "房感 HouseFeel",
+    "help": "幫助中心",
+    "redemptionCenter": "兌換中心"
+  },
+  "joinBlock": {
+    "desc1": "✨歡迎追蹤檬檬商城✨在這裡你可以獲得:",
+    "desc2": "🌱商城最新活動預告，檬友限定優惠不漏接",
+    "desc3": "🌱專屬秘密優惠通道不定期開啟，好東西搶先擁有！"
+  },
+  "couponType": {
+    "valid": "可用行銷票券",
+    "invalid": "歷史行銷票券",
+    "transferred": "轉贈紀錄"
+  },
+  "couponUsage": {
+    "notyet": "尚未開始",
+    "available": "未使用",
+    "expired": "已過期",
+    "obsolete": "已失效",
+    "redeemed": "已使用",
+    "transferred": "已轉贈",
+    "redeemedAndExpired": "已使用｜逾期"
+  },
+  "coinNotEnouthText": {
+    "one": "您的檸檬幣不足，",
+    "two": "請至任務中心賺檸檬幣。"
+  },
+  "articleGroup": {
+    "title1": "推薦大台北10家不同按摩類型店家-介紹不同按摩類型的功效",
+    "title2": "檸檬幣點數大攻略：集點、兌換，聰明消費省很大！",
+    "title3": "【2024 股感會員】歡迎您成為股感的一員，會員中心參考指南來囉！",
+    "title4": "2024最流行染頭髮髮色整理！染髮髮色怎麼挑？",
+    "title5": "2024髮型推薦：「短髮造型、中長髮、長髮」一次整理",
+    "title6": "2024美甲款式：用最新設計提升您的風格"
+  },
+  "couponCategory": "票券類別",
+  "loginSingUp": "註冊/登入",
+  "allCategory": "所有分類",
+  "accountSetting": "帳戶設定",
+  "missionCenter": "任務中心",
+  "tierBenefits": "等級權益",
+  "pointCenter": "點數專區",
+  "historyOrder": "歷史訂單",
+  "hotSellingCoupon": "熱銷票券",
+  "howToUse": "如何使用",
+  "articleRecommend": "文章推薦",
+  "instructionsForUse": "使用須知",
+  "instructionsForUse2": "使用說明",
+  "timeOfUse": "使用時間",
+  "hint": "提示",
+  "payAttentionUsageTime": "需注意個別票券的使用時間",
+  "restrictLemonCoins": "限用檸檬幣",
+  "shareCoupon": "分享票券",
+  "exchangedFollowingCoupon": "兌換此商品可獲得以下票券",
+  "sharePage": "分享頁面",
+  "copyPageLink": "複製頁面連結",
+  "couponRecommendForYou": "為您推薦的票券",
+  "pageLinkCopied": "已複製頁面連結",
+  "pleaseStayTuned": "敬請期待",
+  "redeemNow": "立即兌換",
+  "remainingLemonCoins": "剩餘檸檬幣",
+  "sureWantToUseLemonCoinsRedeemCoupon": "確定使用{ coin }檸檬幣兌換此票券？",
+  "redemptionFailed": "兌換失敗",
+  "redemptionComplete": "完成兌換",
+  "goToMissionCenter": "前往任務中心",
+  "confirmExchange": "確定兌換",
+  "precautions": "注意事項",
+  "thankYouForCompletingRedemption": "感謝您完成兌換！請參考以下兌換詳細資訊",
+  "redemptionDetails": "兌換明細",
+  "displayBarcode": "顯示條碼",
+  "redemptionTime": "兌換時間",
+  "paymentMethod": "付款方式",
+  "lemonCoin": "檸檬幣",
+  "thisItemIncludesFollowingCoupon": "此商品包含以下票券",
+  "continueToRedeem": "繼續兌換",
+  "viewCoupon": "查看票券",
+  "followUs": "追蹤我們",
+  "joinLemonStore": "檬檬商城{name}",
+  "findInformationOnLemonStore": "各項產品訊息皆可在檬檬商{name}城查看喔",
+  "join": "加入",
+  "share": "分享",
+  "logOut": "登出",
+  "cancel": "取消",
+  "confirm": "確認",
+  "loading": "載入中",
+  "seeMore": "看更多",
+  "orderStartAndEndTime": "訂單起迄時間",
+  "youCanCheckOrdersWithinThePastThreeMonths": "請輸入欲查詢的日期區間，僅能查詢三個月內的訂單。",
+  "orderNumber": "訂單編號",
+  "viewOrderInformation": "查看訂單資訊",
+  "returnToRedemptionRecords": "返回兌換紀錄",
+  "backHome": "回首頁",
+  "selectTicketCategory": "選擇票券類別",
+  "viewNow": "立即查看",
+  "getOauthUrlFail": "取得Oauth連結失敗"
+}

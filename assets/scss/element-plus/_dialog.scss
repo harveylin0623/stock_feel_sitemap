@@ -1,0 +1,28 @@
+.basic-dialog {
+  &.el-dialog {
+    --el-dialog-width: 600px;
+    --el-dialog-border-radius: 8px;
+    --el-dialog-padding-primary: 24px;
+  }
+}
+
+.basic-dialog {
+  &.el-dialog {
+    .el-dialog__header {
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--colors-gray-7)
+    }
+    .el-dialog__body {
+      margin-top: 24px;
+      color: #000;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .basic-dialog {
+    &.el-dialog {
+      --el-dialog-width: 95%;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.banner-swiper {
+  .swiper-pagination-bullet-active {
+    background-color: var(--colors-secondary-1)
+  }
+}
+
+.cms-editor-block {
+  width: 100%;
+  * {
+    word-break: break-all !important;
+    white-space: normal !important;
+  }
+  p {
+    text-indent: 0px !important;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  ol, ul {
+    padding: revert;
+  }
+  ol, ul, li {
+    list-style: revert;
+  }
+  a {
+    color: revert;
+    text-decoration: revert;
+  }
+  table {
+    max-width: 100% !important;
+  }
+  figure.table {
+    float: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    td {
+      word-break: break-all;
+    }
+  }
+  table, th, td {
+    border-collapse: collapse;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+  }
+  img, iframe {
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+// .card {
+//   perspective: 1000px;
+//   perspective-origin: center center;
+// }
+
+// .flip-card-container {
+
+//   position: relative;
+//   transition: transform 0.8s;
+//   transform-style: preserve-3d;
+// }
+
+// .front{
+//   width: 100%;
+//   position: absolute;
+//   backface-visibility: hidden;
+//   background-color: red;
+// }
+
+// .back {
+//   width: 100%;
+//   position: absolute;
+//   transform: rotateY(180deg);
+//   backface-visibility: hidden;
+//   background-color: yellow;
+// }
+
+// .card:hover .flip-card-container{
+//   transform: rotateY(180deg);
+// }
