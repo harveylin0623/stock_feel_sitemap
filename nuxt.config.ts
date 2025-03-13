@@ -68,10 +68,21 @@ export default defineNuxtConfig({
   sitemap: {
     hostname: 'https://stock-feel-sitemap.vercel.app',
     xsl: false,
-    routes: () => {
-      // 如果有动态路由，这里可以返回动态生成的路由
-      return ['/test']
-    }
+    include: ['/**'],
+    urls: [
+      {
+        loc: '/',
+        lastmod: '2023-01-01',
+        priority: 0.3,
+        changefreq: 'daily'
+      },
+      {
+        loc: '/test',
+        lastmod: '2023-01-01',
+        priority: 0.3,
+        changefreq: 'daily'
+      }
+    ]
   },
   css: [
     'animate.css/animate.min.css',
