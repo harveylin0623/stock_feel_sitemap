@@ -66,8 +66,11 @@ export default defineNuxtConfig({
   //   name: 'My Awesome Website'
   // },
   sitemap: {
-    hostname: 'https://stock-feel-sitemap.vercel.app/',
+    // hostname: 'https://stock-feel-sitemap.vercel.app/',
     xsl: false,
+    sources: [
+      '/api/sitemap',
+    ],
     defaults: {
       lastmod: new Date().toISOString(),
       priority: 0.5,
