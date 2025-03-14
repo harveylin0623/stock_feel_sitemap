@@ -61,12 +61,7 @@ export default defineNuxtConfig({
   robots: {
     disallow: [process.env.CURRENT_MODE === 'dev' ? '/' : '']
   },
-  // site: {
-  //   url: 'https://stock-feel-sitemap.vercel.app',
-  //   name: 'My Awesome Website'
-  // },
   sitemap: {
-    // hostname: 'https://stock-feel-sitemap.vercel.app/',
     xsl: false,
     sources: [
       '/api/sitemap',
