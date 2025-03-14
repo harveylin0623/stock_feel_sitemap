@@ -31,7 +31,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/i18n',
     '@element-plus/nuxt',
-    'nuxt-simple-robots',
+    // 'nuxt-simple-robots',
     '@zadigetvoltaire/nuxt-gtm',
     '@nuxtjs/sitemap'
   ],
@@ -58,17 +58,17 @@ export default defineNuxtConfig({
   gtm: {
     id: gtmId
   },
-  robots: {
-    disallow: [process.env.CURRENT_MODE === 'dev' ? '/' : '']
-  },
-  site: {
-    url: 'https://stock-feel-sitemap.vercel.app',
-    name: 'My Awesome Website'
-  },
+  // robots: {
+  //   disallow: [process.env.CURRENT_MODE === 'dev' ? '/' : '']
+  // },
+  // site: {
+  //   url: 'https://stock-feel-sitemap.vercel.app',
+  //   name: 'My Awesome Website'
+  // },
   sitemap: {
-    hostname: 'https://stock-feel-sitemap.vercel.app',
+    hostname: 'https://stock-feel-sitemap.vercel.app/',
     xsl: false,
-    include: ['/**'],
+    include: ['/', 'test'],
     urls: [
       {
         loc: '/',
