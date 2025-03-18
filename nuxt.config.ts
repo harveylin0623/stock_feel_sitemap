@@ -64,12 +64,17 @@ export default defineNuxtConfig({
   sitemap: {
     xsl: false,
     sources: [
-      '/api/sitemap',
+      '/api/sitemap'
     ],
     defaults: {
       lastmod: new Date().toISOString(),
       priority: 0.5,
       changefreq: 'daily'
+    }
+  },
+  nitro: {
+    routeRules: {
+      '/sitemap.xml': { prerender: false } // 確保 sitemap.xml 是動態的
     }
   },
   css: [
